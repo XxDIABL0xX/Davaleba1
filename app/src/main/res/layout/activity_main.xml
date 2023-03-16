@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Text_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="20dp"
+        android:text="0"/>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Puse_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="58dp"
+        android:backgroundTint="@color/black"
+        app:cornerRadius="50dp"
+        app:strokeColor="@color/Blue"
+        app:strokeWidth="3dp"
+        app:rippleColor="@color/Blue"
+        android:text="Pluse"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Minus_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="58dp"
+        android:backgroundTint="@color/black"
+        app:cornerRadius="50dp"
+        app:strokeColor="@color/Blue"
+        app:strokeWidth="3dp"
+        app:rippleColor="@color/Blue"
+        android:text="Minus"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Reset_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="58dp"
+        android:backgroundTint="@color/black"
+        app:cornerRadius="50dp"
+        app:strokeColor="@color/Blue"
+        app:strokeWidth="3dp"
+        app:rippleColor="@color/Blue"
+        android:text="Reset"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Exit_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="58dp"
+        android:backgroundTint="@color/black"
+        app:cornerRadius="50dp"
+        app:strokeColor="@color/Blue"
+        app:strokeWidth="3dp"
+        app:rippleColor="@color/Blue"
+        android:text="Exit"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/About_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="58dp"
+        android:backgroundTint="@color/black"
+        app:cornerRadius="50dp"
+        app:strokeColor="@color/Blue"
+        app:strokeWidth="3dp"
+        app:rippleColor="@color/Blue"
+        android:text="About Us"/>
+
+
+
+
+
+</LinearLayout>
